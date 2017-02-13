@@ -1,0 +1,37 @@
+#heading{
+	margin: 1px auto;
+}
+
+#container{
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	overflow: auto;
+}
+
+.pwChange{
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	overflow: auto;
+}
+
+#currentPassword{
+	float:left;
+	padding-right: 5px;
+}
+
+#newPassword{
+	float:left;
+	padding-right: 5px;
+}
+
+#center-on-page{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#container > div{
+	float: left;
+	padding-right: 5px;
+}

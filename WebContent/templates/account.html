@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css"/>
+	<script src="scripts/jquery-3.1.1.js"></script>
+	<script src="scripts/template.js"></script>
+	<meta charset="ISO-8859-1">
+<title>Account</title>
+</head>
+<body>
+	<h3 id="heading-1" class="ui-bar ui-bar-a ui-corner-all">Account</h3>
+	<div class="ui-body ui-body-a ui-corner-all container">
+		<p>Username: ${user}</p>
+		<p>Change Password:</p>
+		<form action="ChangePassword" class="pwChange">
+			<input type="currentPassword" id="currentPassword" placeholder="Current Password"><br />
+			<input type="newPassword" id="newPassword" placeholder="New Password"><br />
+			<button type="changePassword">Change Password</button>
+		</form>
+	</div>
+</body>
+</html>
